@@ -12,3 +12,49 @@ body {
   color: #30251e;
 }
 
+/* HEADER */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 7%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* LOGO */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6f4e37;
+}
+
+#header-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+/* NAVIGATION */
+
+#nav-bar {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #30251e;
+}
+
+.nav-link:hover {
+  color: #a87950;
+}
