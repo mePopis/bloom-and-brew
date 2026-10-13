@@ -417,3 +417,37 @@ body {
     scroll-margin-top: 170px;
   }
 }
+
+
+/* FOOTER */
+
+#footer {
+  background-color: #30251e;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 7%;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.footer-tagline {
+  color: #e4d6ca;
+  margin-bottom: 25px;
+}
+
+.footer-copyright {
+  font-size: 0.85rem;
+  color: #c5b5a7;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #65534a;
+  width: 100%;
+  max-width: 1400px;
+  margin: 25px auto;
+}
