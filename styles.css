@@ -302,3 +302,118 @@ body {
 #submit:hover {
   background-color: #a87950;
 }
+
+
+/* RESPONSIVE DESIGN */
+
+/* TABLETS AND SMALLER SCREENS */
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+
+  #header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 5%;
+  }
+
+  #nav-bar {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /* HERO SECTION */
+
+  .hero {
+    flex-direction: column;
+    gap: 35px;
+    padding: 60px 5%;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero-image {
+    flex: none;
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-image img {
+    height: 300px;
+  }
+
+  /* FEATURES SECTION */
+
+  #features {
+    padding: 60px 5%;
+  }
+
+  .features-container {
+    flex-direction: column;
+  }
+
+  /* OUR STORY SECTION */
+
+  #our-story {
+    padding: 60px 5%;
+  }
+
+  /* SUBSCRIBE SECTION */
+
+  #subscribe {
+    padding: 60px 5%;
+  }
+
+}
+
+
+/* SMALL MOBILE SCREENS */
+
+@media (max-width: 480px) {
+
+  .logo-container {
+    font-size: 1.2rem;
+  }
+
+  #header-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #nav-bar {
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-image img {
+    height: 230px;
+  }
+
+  #features h2,
+  #our-story h2,
+  #subscribe h2 {
+    font-size: 2rem;
+  }
+
+  #form {
+    padding: 20px;
+  }
+
+  #features,
+  #our-story,
+  #subscribe {
+    scroll-margin-top: 170px;
+  }
+}
