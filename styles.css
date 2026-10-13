@@ -127,3 +127,57 @@ body {
   object-fit: cover;
   border-radius: 16px;
 }
+
+
+/* FEATURES SECTION */
+
+#features {
+  padding: 90px 7%;
+  text-align: center;
+  scroll-margin-top: 110px;
+}
+
+#features h2 {
+  font-size: 2.5rem;
+  color: #30251e;
+  margin-bottom: 15px;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #5f5147;
+  margin-bottom: 45px;
+}
+
+/* FEATURES CONTAINER */
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* FEATURE CARDS */
+
+.feature-card {
+  flex: 1;
+  padding: 35px 25px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  color: #6f4e37;
+  font-size: 1.3rem;
+}
+
+.feature-card p {
+  color: #5f5147;
+  line-height: 1.7;
+}
