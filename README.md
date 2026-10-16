@@ -9,6 +9,11 @@ Built as part of the [freeCodeCamp Responsive Web Design](https://www.freecodeca
 
 [**View the live website**](https://mepopis.github.io/bloom-and-brew/)
 
+## 📸 Website Preview
+
+![Bloom & Brew landing page](screenshots/bloom_and_brew_landing_page_desktop_complete.png)
+
+
 ## ✨ Features
 
 - Responsive layout designed for desktop, tablet and mobile screens
